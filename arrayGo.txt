@@ -1,0 +1,19 @@
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+
+	var arrayDeStrings [4]string
+
+	arrayDeStrings[0] = "Topezara"
+	arrayDeStrings[1] = "tem"
+	arrayDeStrings[2] = "vai"
+	arrayDeStrings[3] = "funciona"
+	
+	for posi, value := range arrayDeStrings {
+		fmt.Printf("%v, %v \n", posi, value)
+	}
+}
